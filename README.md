@@ -3,7 +3,7 @@
 
 ### Requirement
 #### Hardware environment(Lenovo server)£º  
-[li] Inter(R)Xeon(TM) E5-1650 3.50 GHzs¡Á 2  
+[li] Inter(R)Xeon(TM) E5-1650 3.50 GHzs¡Á2  
 [li] NVIDIA  1080Ti Graphics Card  
 [li] 2GB DDR4 SDRAM  
 
