@@ -1,0 +1,99 @@
+文件夹 PATH 列表
+卷序列号为 000D-1185
+D:\0-RYAN\4-PYTHON\FACEGAN
+├─0-target-of-me
+├─datasets
+│  ├─bos
+│  │  ├─bos_img
+│  │  └─bos_lm2
+│  ├─ck+
+│  │  ├─img_FaceGAN_reenact
+│  │  ├─img_FaceGAN_reenact-old
+│  │  ├─img_FaceGAN_reenact-s014
+│  │  ├─img_FaceGAN_reenact_without_chin
+│  │  ├─img_pair
+│  │  ├─img_pair_without_chin
+│  │  └─original
+│  ├─face
+│  ├─face2
+│  ├─frgc
+│  │  ├─img_concat
+│  │  ├─img_pair
+│  │  ├─small_128_128_2
+│  │  ├─small_64_64_1
+│  │  └─small_64_64_2
+│  ├─MMI
+│  │  ├─img_pair
+│  │  └─original
+│  └─source
+├─dlib_param
+├─faceGAN_bck
+├─fineGAN_train_log
+│  ├─logs
+│  ├─model
+│  └─sample_img
+├─test_code
+│  ├─mind1_lines
+│  ├─pts
+│  ├─test
+│  ├─tf_data
+│  └─video
+├─test_output
+│  ├─datasets
+│  └─model
+├─train_log
+│  ├─logs
+│  ├─model
+│  └─sample_img
+├─train_log-
+│  ├─模糊不清
+│  │  ├─model
+│  │  └─sample_img
+│  └─老版本
+│      ├─logs
+│      ├─logs-
+│      ├─logs---ck+
+│      ├─logs-64_64_1-frgc
+│      ├─model
+│      ├─model-
+│      ├─model---ck+
+│      ├─model-64_64_1-frgc
+│      ├─sample_img
+│      ├─sample_img-
+│      │  ├─old
+│      │  ├─old-encoder改为vgg
+│      │  └─细线条-原网络-64_64_1-frgc
+│      └─sample_img---ck+
+├─train_log_ck+_withchin
+│  ├─logs
+│  ├─model
+│  ├─sample_img
+│  └─效果图
+├─train_log_FineGAN_without_chin
+│  ├─logs
+│  ├─model
+│  ├─sample_img
+│  ├─sample_img--
+│  └─sample_img---
+├─train_log_without_chin
+│  ├─logs
+│  ├─model
+│  ├─sample_img
+│  ├─sample_img-200000
+│  └─代码
+├─__pycache__
+├─代码
+├─新建文件夹
+│  └─__pycache__
+└─模型文件和预测效果图像
+    ├─单向模型--connection--黑白
+    │  ├─img_FaceGAN_reenact
+    │  ├─model
+    │  └─sample_img
+    └─双向模型--connection
+        ├─img_FaceGAN_reenact--拟合较差效果2
+        ├─img_FaceGAN_reenact--拟合较差的效果
+        ├─img_FaceGAN_reenact-old
+        ├─img_FaceGAN_reenact-out1
+        ├─model
+        └─sample_img
