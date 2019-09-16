@@ -2,16 +2,16 @@
 ## Recursive expression animation synthesis based on dual GAN
 
 ### Requirement
-#### Hardware environment£¨Lenovo server£©£º  
-[li]Inter(R)Xeon(TM) E5-1650 3.50 GHzs¡Á 2  
-[li]NVIDIA  1080Ti Graphics Card  
-[li]32GB DDR4 SDRAM  
+#### Hardware environment(Lenovo server)£º  
+[li] Inter(R)Xeon(TM) E5-1650 3.50 GHzs¡Á 2  
+[li] NVIDIA  1080Ti Graphics Card  
+[li] 2GB DDR4 SDRAM  
 
 
-#### Software environment£º  
-[li]Ubuntu16.04£¨CUDA9.0 ¡¢ CUDNN £©  
-[li]Pycharm2016.3  
-[li]Anaconda2£¨Python2.7£©¡¢Tensorflow1.8¡¢OpenCV  
+#### Software environment:  
+[li] Ubuntu16.04(CUDA9.0, CUDNN)  
+[li] Pycharm2016.3  
+[li] Anaconda2(Python2.7), Tensorflow1.8, OpenCV  
 
 
 ### train
@@ -37,20 +37,20 @@ All the functions that operate on the files path are in the `path_prcess.py`.
 3. Configuration  
 `config.py` is the configuration file, the specific configuration is as follows:    
     SSIM_RATIO = 1           # define parameters for SSIM  
-    PREDICT_BATCH_SIZE = 64  # the batch size of the predicted data  
+    PREDICT_BATCH_SIZE = 64       # the batch size of the predicted data  
     BATCH_SIZE = 32          # the batch size of the training data  
     REAL_TIME_REENACT_BATCH_SIZE = 1  
-    NAME_DATA_SET = 'ck+'   # FRGC£»or NAME_DATA_SET = 'MMI' , FRGC  
+    NAME_DATA_SET = 'ck+'      # FRGC£»or NAME_DATA_SET = 'MMI' , FRGC  
     TIMES_TO_SAVE = 500  
     TRAIN_FLAG = ''          # TRAIN_FLAG = 'train' or 'test'  
     TRAIN_ON_SMALL_DATA = False  
-    SMALL_DATA_SIZE = 64000  # integer multiple of batch_size  
+    SMALL_DATA_SIZE = 64000       # integer multiple of batch_size  
     DROP_OUT = 0.6  
     CONV_KERNEL_SIZE = [3, 3]   
-    TIMES_EPOCH = 500        # number of iterations of training  
+    TIMES_EPOCH = 500          # number of iterations of training  
     CAPACITY = 1000 * BATCH_SIZE  
     SHUFFLE = False  
-    MAX_ITER = 200000        # maximum number of iterations  
+    MAX_ITER = 200000          # maximum number of iterations  
     WEIGHT_DECAY = 5e-4  
     VALIDE_RATIO = 0.5  
 
@@ -66,7 +66,7 @@ All the functions that operate on the files path are in the `path_prcess.py`.
     IMAGE_HEIGHT = 128  
     CHANNEL = 3  
 
-4. The directory tree structure is as follows:
+4. The directory tree structure is as follows:  
 D:\0-RYAN\4-PYTHON\FACEGAN
 ```
 ©À©¤0-target-of-me
